@@ -1,8 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-image: url("https://i.imgur.com/xz5J6v3.jpg");
+    background-color: tomato;
 }
 
 .name-box {
     font-size: 2em;
+}
+
+h1 {
+    color: gold;
+    text-shadow: 3px 3px blue;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4em;
 }
 
