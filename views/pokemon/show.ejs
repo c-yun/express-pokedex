@@ -1,0 +1,44 @@
+<div class="container">
+
+    <a href="/pokemon/">Back to Favorites</a>
+
+    <div class="name-box">
+    <img src= <%= data.sprites.front_default %>
+    <h2><%= data.name %></h2>
+    </div>
+
+    <div class="bio">
+    <p class="specs">
+
+        Base Experience: <%= data.base_experience %><br>
+
+        Height: <%= data.height %><br>
+
+        Weight: <%= data.weight %>
+    </p>
+    </div>
+
+    <div class="skills">
+        <p class="attribute">Moves:</p>
+        <p class="moves">
+            <%= data.moves[0].move.name %>,
+            <%= data.moves[1].move.name %>,
+            <%= data.moves[2].move.name %>
+        </p>
+        <p class="attribute">Abilities:</p>
+        <p class="abilities"><%= data.abilities %>
+        </p>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>

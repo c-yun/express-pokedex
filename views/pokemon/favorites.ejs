@@ -1,0 +1,12 @@
+<div class="container">
+    <h1 class="text-center">Favorites</h1>
+    <p class="text-center"><a href="/">Home</a>
+    </p>
+
+<div class="favorites-box">
+    <% pokemons.forEach(function(pokemon) { %>
+        <a href="/pokemon/<%= pokemon.name %>">
+        <h2><%= pokemon.name %></h2>
+    <% }); %>
+</div>
+</div>
